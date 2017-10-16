@@ -3,10 +3,10 @@ import sys
 import time
 import datetime
 
-if len(sys.argv) = 2:
+if len(sys.argv) == 2:
 	option = str(sys.argv[1])
-elif len(sys.argv > 2):
-	print "imprime un solo parámetro"
+elif len(sys.argv) > 2:
+	print "introduce un solo parametro"
 	sys.exit()
 else:
 	option = ""
